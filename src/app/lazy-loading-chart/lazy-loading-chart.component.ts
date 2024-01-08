@@ -155,35 +155,7 @@ export class LazyLoadingChartComponent {
 		},
 
 		rangeSelector: {
-			enabled: false,
-			buttons: [
-				{
-					type: 'hour',
-					count: 1,
-					text: '1h'
-				},
-				{
-					type: 'day',
-					count: 1,
-					text: '1d'
-				},
-				{
-					type: 'month',
-					count: 1,
-					text: '1m'
-				},
-				{
-					type: 'year',
-					count: 1,
-					text: '1y'
-				},
-				{
-					type: 'all',
-					text: 'All'
-				}
-			],
-			inputEnabled: false, // it supports only days
-			selected: 2 // all
+			enabled: false
 		},
 
 		xAxis: {
